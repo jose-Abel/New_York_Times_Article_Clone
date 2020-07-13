@@ -3,21 +3,24 @@ html {
     background-color: #fff;
 }
 
-ul {
-    list-style: none;
+
+.nav-bar {
 }
 
-.nav-bar-left-buttons{
+.nav-bar-buttons-left{
     margin-right: 4rem;
     float: left;
+    text-align: center;
 
-}
-
-.nav-bar-right-buttons {
-    float: right;
-    margin-right: 4rem;
 }
 
 .nyt-logo{
+    display: inline-block;
     text-align: center;
 }
+
+.nav-bar-right-buttons {
+    margin-right: 4rem;
+    float: right;
+}
+
