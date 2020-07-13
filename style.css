@@ -4,16 +4,20 @@ html {
 }
 
 ul {
-    display: flex;
     list-style: none;
 }
 
 .nav-bar-left-buttons{
     margin-right: 4rem;
+    float: left;
 
 }
 
 .nav-bar-right-buttons {
-    
+    float: right;
+    margin-right: 4rem;
 }
 
+.nyt-logo{
+    text-align: center;
+}
