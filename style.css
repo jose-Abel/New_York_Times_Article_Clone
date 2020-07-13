@@ -34,13 +34,10 @@ li a {
   text-decoration: none;
 }
 
-.nyt-logo {
-  text-align: center;
-}
 
-.nyt-logo,
-img {
+.nytimes-logo {
   width: 20rem;
+  text-align: center;
 }
 
 .left-buttons{
