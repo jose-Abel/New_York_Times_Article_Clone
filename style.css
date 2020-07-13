@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+    background-color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar-left-buttons{
+    margin-right: 4rem;
+
+}
+
+.nav-bar-right-buttons {
+    
+}
+
