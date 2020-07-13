@@ -87,11 +87,13 @@ img {
 }
 
 .first-box {
+  box-sizing: border-box;
+  padding: 3rem;
   text-align: center;
 }
 
 .first-box img{
-  width: 50%;
+  width: 70%;
 }
 
 .main-title{
@@ -113,4 +115,10 @@ img {
   font-size: 1.5rem;
   margin-top: 1rem;
   display: inline-block;
+  text-align: start;
+  width: 70%;
+}
+
+.author-info{
+  flex: 1;
 }
