@@ -119,6 +119,41 @@ img {
   width: 70%;
 }
 
-.author-info{
-  flex: 1;
+
+.page-container {
+  margin: 0 30rem 0 30rem;
+}
+
+
+.author-name {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.name {
+  text-decoration: underline;
+}
+
+.name:hover {
+  text-decoration: none;
+}
+
+.col-1-of-2 {
+  width: calc((100% - 6rem) / 2); 
+  display: inline-block;
+}
+
+.article-date {
+  font-size: 1.3rem;
+}
+
+.row i {
+  text-align: end;
+  padding-left: 2.5rem;
+  font-size: 2rem;
+  float: right;
+  color: black;
 }
