@@ -1,30 +1,59 @@
 html {
-    font-size: 62.5%;
-    background-color: #fff;
+  font-size: 62.5%;
+  background-color: #fff;
 }
 
-
-.nav-bar-buttons-left{
-    margin-right: 4rem;
-    float: left;
-    text-align: center;
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
 }
 
-.nyt-logo{
-    text-align: center;
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
+li {
+  float: left;
+  vertical-align: middle;
 }
 
-.nyt-logo i{
-    width: 1rem;
-    height: 20%;
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.nav-bar-right-buttons {
-    margin-right: 4rem;
-    float: right;
+.nyt-logo {
+  text-align: center;
 }
 
+.nyt-logo,
+img {
+  width: 20rem;
+}
+
+.left-buttons{
+    margin-left: 3rem;
+    background: #fff;
+}
+
+.f-right {
+  float: right;
+  margin-right: 2rem;
+}
+
+.lbtn{
+    background: #fff;
+    border: 0px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.rbtn{
+    background: #567B95;
+    color: #fff;
+    border: 0px;
+    padding: 1rem;
+    cursor: pointer;
+}
