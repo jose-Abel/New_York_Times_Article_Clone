@@ -82,23 +82,35 @@ img {
   height: 15rem;
 }
 
-main-content{
+.main-content{
   width: 100%;
 }
 
-.first-box{
-  display: block;
+.first-box {
+  text-align: center;
 }
-
-.first-box p{
-  text-align: justify;
-  }
 
 .first-box img{
   width: 50%;
 }
 
 .main-title{
-  text-align: center;
+  display: inline-block;
+}
+
+.main-title h1 {
+  font-size: 4rem;
+  font-style: italic;
+
+}
+
+.main-title p {
+  margin-top: 1rem;
+  text-align: start;
+}
+
+.picture-paragraph {
+  font-size: 1.5rem;
+  margin-top: 1rem;
   display: inline-block;
 }
