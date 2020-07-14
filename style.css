@@ -125,8 +125,8 @@ li a {
 }
 
 
-.page-container {
-  margin: 0 30rem 0 30rem;
+.page-container-1, .page-container-2{
+  margin: 0 20rem 0 35rem;
 }
 
 
@@ -167,11 +167,27 @@ article{
   float: left;
   margin-right: 15rem;
   font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+  line-height: 3rem;
 }
+
+.highligh-text-1 {
+  color: #3268ad;
+}
+
+.highligh-text-1:hover {
+  text-decoration: none;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
 
 .editor__picks{
   float: right;
-  transform: translateY(-500rem);
+  transform: translateY(-710rem);
   width: 31rem;
 }
 
@@ -206,17 +222,29 @@ article{
   margin-left: -7rem;
 }
 
+.inflation-div{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  width: 90rem;
+  transform: translateX(16rem);
+}
+
+.inflation-title {
+  font-size: 1.8rem;
+
+}
+
 .inflation-txt{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  margin-top: -1.5rem;
+  color: gray;
+  text-align: justify;
 }
 
 .inflation-img{
   max-width: 100rem;
+  margin: 0 auto;
+
 }
 
-.inflation-div{
-  position: relative;
-  display: inline-block;
-  margin-left: -10rem;
-  margin-right: 10rem;
-}
