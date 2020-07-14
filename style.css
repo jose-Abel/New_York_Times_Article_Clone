@@ -172,18 +172,37 @@ article{
 .editor__picks{
   float: right;
   transform: translateY(-500rem);
+  width: 31rem;
+}
+
+.editor__picks h4 {
+  margin: -1rem 4rem;
+  font-size: 1.5rem;
+}
+
+.editor__picks hr {
+  margin: 2rem 5rem 1.5rem 4rem;
+  background-color: rgb(128, 128, 128);
+  height: .5px;
+}
+
+
+.editor__pick-article {
+  width: 30%;
 }
 
 .editor__pick-image {
   width: 7.5rem;
-  height: 8rem;
+  margin-left: 4rem;
+
 }
 
 .editor__pick-text {
   text-decoration: none;
   font-size: 1.3rem;
   color: black;
-  vertical-align: top;
-  word-wrap: break-word;
+  float: right;
+  transform: translate(20rem, -8rem);
+  margin-left: -7rem;
 
 }
