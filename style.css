@@ -204,5 +204,19 @@ article{
   float: right;
   transform: translate(20rem, -8rem);
   margin-left: -7rem;
+}
 
+.inflation-txt{
+  font-size: 1.5rem;
+}
+
+.inflation-img{
+  max-width: 100rem;
+}
+
+.inflation-div{
+  position: relative;
+  display: inline-block;
+  margin-left: -10rem;
+  margin-right: 10rem;
 }
