@@ -283,3 +283,16 @@ article{
   font-size: 1rem;
 }
 
+.inline-vid-img{
+  width: 100%;
+}
+
+.inline-vid-img img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inline-vid-img span{
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
