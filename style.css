@@ -4,15 +4,15 @@ html {
 }
 
 body {
-  margin: 0;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Times New Roman";
+  font-weight: 400;
 
 }
 
 .nav-bar{
   background-color: white;
   position: fixed;
-  width: 100%;
+  width: 100%; 
   top: 0;
   left: 0;
 }
@@ -23,6 +23,7 @@ ul {
   padding: 0;
   overflow: hidden;
   text-align: center;
+  
 }
 
 li {
@@ -47,11 +48,13 @@ li a {
 .left-buttons{
     margin: 0 1rem 0 0.7rem;
     background: #fff;
+
 }
 
 .f-right {
   float: right;
   margin-right: 2rem;
+
 }
 
 .lbtn{
@@ -63,14 +66,15 @@ li a {
 
 .rbtn{
   margin-top: 0.3rem;
-    background: rgba(86,123,149, 0.9);
-    color: #fff;
-    border: 0px;
-    padding: 1.3rem 1.5rem 0.8rem 1.5rem;
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    cursor: pointer;
+  background: rgba(86,123,149, 0.9);
+  color: #fff;
+  border: 0px;
+  padding: 1.3rem 1.5rem 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+
 }
 
 .rbtn:hover {
@@ -78,13 +82,9 @@ li a {
 }
 
 .ad-space {
-  background-color: gray;
+  background-color: #f7f7f7;
   width: 100%;
   height: 15rem;
-}
-
-.adspan{
-  height: 10rem;
 }
 
 .main-content{
@@ -127,6 +127,7 @@ li a {
 
 .page-container-1, .page-container-2{
   margin: 0 20rem 0 35rem;
+
 }
 
 
@@ -166,10 +167,10 @@ li a {
 article{
   float: left;
   margin-right: 15rem;
-  font-size: 2rem;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-  line-height: 3rem;
+  font-size: 2.3rem;
+  letter-spacing: normal;
+  font-weight: .7rem;
+  line-height: 2.9rem;
 }
 
 .highligh-text-1 {
@@ -222,29 +223,63 @@ article{
   margin-left: -7rem;
 }
 
-.inflation-div{
-  position: relative;
+.theory-inflation{
   display: inline-block;
-  margin: 0 auto;
-  width: 90rem;
-  transform: translateX(16rem);
+  letter-spacing: 0;
+  line-height: 2rem;
+
 }
 
-.inflation-title {
+.theory-inflation-heading{
+  margin: 0 20rem 0 15rem;
+
+}
+
+
+.theory-inflation-title {
   font-size: 1.8rem;
 
 }
 
-.inflation-txt{
+.theory-inflation-txt{
   font-size: 1.4rem;
   margin-top: -1.5rem;
   color: gray;
   text-align: justify;
+
 }
 
-.inflation-img{
-  max-width: 100rem;
-  margin: 0 auto;
+.theory-of-inflation-container{
+  margin: 0 10rem 0 15rem;
 
+}
+
+.card-container {
+  margin-right: 3rem;
+}
+
+.card-top {
+  display: flex;
+  float: left;
+  padding-right: 4rem;
+}
+
+.card-bottom {
+  display: flex;
+  float: left;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+
+.card-container-image-top, .card-container-image-bottom {
+  width: 15rem;
+}
+
+.card-container-image-top {
+  margin-bottom: 2rem;
+}
+
+.theory-inflation-txt{
+  font-size: 1rem;
 }
 
