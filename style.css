@@ -125,7 +125,7 @@ li a {
 }
 
 
-.page-container-1, .page-container-2{
+.page-container{
   margin: 0 20rem 0 35rem;
 
 }
@@ -164,7 +164,7 @@ li a {
   color: black;
 }
 
-article{
+.article{
   float: left;
   margin-right: 15rem;
   font-size: 2.3rem;
@@ -275,21 +275,19 @@ article{
   width: 15rem;
 }
 
-.card-container-image-top {
-  margin-bottom: 2rem;
-}
-
-.theory-inflation-txt{
-  font-size: 1rem;
+.card-container-text-top, .card-container-text-bottom {
+  font-size: 1.4rem;
 }
 
 .inline-vid-img{
   width: 100%;
+  display: inline-block;
 }
 
 .inline-vid-img img{
   width: 100%;
   margin-bottom: 1rem;
+  display: inline-block;
 }
 
 .inline-vid-img span{
