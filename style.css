@@ -6,33 +6,30 @@ html {
 body {
   font-family: "Times New Roman";
   font-weight: 400;
-
 }
 
-.nav-bar{
+.nav-bar {
   background-color: white;
   position: fixed;
-  width: 100%; 
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 20;
 }
 
-ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
-  
 }
 
-li {
-  float: left;
+.nav-bar li {
   vertical-align: middle;
 }
 
-li a {
+.nav-bar li a {
   display: block;
   color: black;
   text-align: center;
@@ -40,33 +37,32 @@ li a {
   text-decoration: none;
 }
 
-
 .nytimes-logo {
   width: 20rem;
   text-align: center;
 }
 
-.left-buttons{
-    margin: 0 1rem 0 0.7rem;
-    background: #fff;
-
+.left-buttons {
+  float: left;
+  margin: 0 1rem 0 0.7rem;
+  background: #fff;
 }
 
 .f-right {
   float: right;
   margin-right: 2rem;
-
 }
 
-.lbtn{
-    background: #fff;
-    border: 0px;
-    padding: 1rem;
-    cursor: pointer;
+.lbtn {
+  background: #fff;
+  border: 0px;
+  padding: 1rem;
+  cursor: pointer;
 }
 
-.rbtn{
+.rbtn {
   margin-top: 0.3rem;
+  background: rgba(86, 123, 149, 0.9);
   color: #fff;
   border: 0px;
   padding: 1.3rem 1.5rem 0.8rem 1.5rem;
@@ -74,7 +70,6 @@ li a {
   font-size: 1.2rem;
   font-weight: bolder;
   cursor: pointer;
-
 }
 
 .button-hovering {
@@ -85,10 +80,18 @@ li a {
   background-color: rgba(86,123,149, 2);
 }
 
+.rbtn:hover {
+  background-color: rgba(86, 123, 149, 2);
+}
+
 .ad-space {
   background-color: #f7f7f7;
   width: 100%;
   height: 15rem;
+}
+
+.main-content {
+  width: 100%;
 }
 
 .first-box {
@@ -97,18 +100,17 @@ li a {
   text-align: center;
 }
 
-.first-box img{
+.first-box img {
   width: 70%;
 }
 
-.main-title{
+.main-title {
   display: inline-block;
 }
 
 .main-title h1 {
   font-size: 4rem;
   font-style: italic;
-
 }
 
 .main-title p {
@@ -124,18 +126,15 @@ li a {
   width: 70%;
 }
 
-
-.page-container{
+.page-container {
   margin: 0 20rem 0 35rem;
 }
-
 
 .author-name {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 1.5rem;
-
 }
 
 .remove-underling-hovering {
@@ -147,7 +146,7 @@ li a {
 }
 
 .col-1-of-2 {
-  width: calc((100% - 6rem) / 2); 
+  width: calc((100% - 6rem) / 2);
   display: inline-block;
 }
 
@@ -163,12 +162,12 @@ li a {
   color: black;
 }
 
-.article{
+.article {
   float: left;
   margin-right: 15rem;
   font-size: 2.3rem;
   letter-spacing: normal;
-  font-weight: .7rem;
+  font-weight: 0.7rem;
   line-height: 2.9rem;
 }
 
@@ -186,8 +185,9 @@ li a {
   float: right
 }
 
-
-.editor__picks{
+.editor__picks {
+  float: right;
+  transform: translateY(-710rem);
   width: 31rem;
   position: absolute;
   top: 180rem;
@@ -202,9 +202,8 @@ li a {
 .editor__picks hr {
   margin: 2rem 5rem 1.5rem 4rem;
   background-color: rgb(128, 128, 128);
-  height: .5px;
+  height: 0.5px;
 }
-
 
 .editor__pick-article {
   width: 20%;
@@ -213,7 +212,6 @@ li a {
 .editor__pick-image {
   width: 7.5rem;
   margin-left: 4rem;
-
 }
 
 .editor__pick-text {
@@ -226,35 +224,29 @@ li a {
   margin-right: 3rem;
 }
 
-.theory-inflation{
+.theory-inflation {
   display: inline-block;
   letter-spacing: 0;
   line-height: 2rem;
-
 }
 
-.theory-inflation-heading{
+.theory-inflation-heading {
   margin: 0 20rem 0 15rem;
-
 }
-
 
 .theory-inflation-title {
   font-size: 1.8rem;
-
 }
 
-.theory-inflation-txt{
+.theory-inflation-txt {
   font-size: 1.4rem;
   margin-top: -1.5rem;
   color: gray;
   text-align: justify;
-
 }
 
-.theory-of-inflation-container{
+.theory-of-inflation-container {
   margin: 0 10rem 0 15rem;
-
 }
 
 .card-top {
@@ -274,28 +266,28 @@ li a {
   margin-right: 3rem;
 }
 
-.card-container-image-top, .card-container-image-bottom {
+.card-container-image-top,
+.card-container-image-bottom {
   width: 15rem;
 }
 
-.card-container-text-top, .card-container-text-bottom {
+.card-container-text-top,
+.card-container-text-bottom {
   font-size: 1.4rem;
 }
 
-
-
-.inline-vid-img{
+.inline-vid-img {
   width: 100%;
   display: inline-block;
 }
 
-.inline-vid-img img{
+.inline-vid-img img {
   width: 100%;
   margin-bottom: 1rem;
   display: inline-block;
 }
 
-.inline-vid-img span{
+.inline-vid-img span {
   font-size: 1.4rem;
   line-height: 2rem;
 }
@@ -376,12 +368,9 @@ li a {
   color: slategray;
 }
 
-
 .editors-pick-bottom {
   font-size: 1.7rem;
 }
-
-
 
 .more-articles-right{
   width: 25%;
@@ -416,4 +405,37 @@ li a {
 .more-articles-right-title{
   text-align: start;
   font-size: 1.7rem;
+}
+
+.footer-column {
+  float: left;
+  width: 16.66%;
+}
+
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-column ul{
+  list-style-type: none;
+  text-align: left;
+}
+
+.footer-column li {
+  margin-bottom: 1rem;
+}
+
+.footer-column li a {
+  font-family: sans-serif;
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+  }
+
+.footer-column .svg{
+  width: 10%;
+  margin-right: 1rem;
+  float: left;
 }
