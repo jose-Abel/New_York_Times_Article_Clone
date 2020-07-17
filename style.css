@@ -112,7 +112,8 @@ body {
   font-style: italic;
 }
 
-.main-title p {
+.main-title span {
+  display: block;
   margin-top: 1rem;
   text-align: start;
 }
@@ -281,6 +282,10 @@ body {
   display: inline-block;
 }
 
+.inline-vid-img iframe {
+  border: none;
+}
+
 .inline-vid-img img {
   width: 100%;
   margin-bottom: 1rem;
@@ -400,6 +405,7 @@ body {
 .more-articles-right-title {
   text-align: start;
   font-size: 1.7rem;
+  font-weight: bolder;
 }
 
 .footer-column {
