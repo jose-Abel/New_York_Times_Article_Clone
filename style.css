@@ -189,7 +189,7 @@ body {
 
 .editor__picks {
   float: right;
-  transform: translateY(-980rem);
+  transform: translateY(-1120rem);
   width: 30rem;
   position: absolute;
   top: 180rem;
@@ -209,7 +209,7 @@ body {
 
 .editor__pick-article {
   width: 25%;
-
+  
 }
 
 .editor__pick-image {
@@ -248,21 +248,21 @@ body {
   text-align: justify;
 }
 
-.theory-of-inflation-container {
-  margin: 0 10rem 0 15rem;
-}
+
 
 .card-top {
   display: flex;
   float: left;
   padding-right: 4rem;
+  margin: 0 10rem 0 15rem;
+
 }
 
 .card-bottom {
   display: flex;
   padding-right: 4rem;
-  margin-top: 2rem;
   align-items: center;
+  margin: 2rem 10rem 0 15rem;
 }
 
 .card-container-top,
@@ -331,12 +331,15 @@ body {
 /* -------------------MORE ARTICLES SECTION------------------ */
 
 .more-articles-section {
-  display: flex;
   margin: 8rem -6rem 4rem 5rem;
+  display: inline-block;
+
 }
 
 .more-articles-left {
+  /* display: inline-block; */
   border-top: 0.1rem solid black;
+  float: left;
   padding-top: 5rem;
   width: 60%;
 }
@@ -352,7 +355,7 @@ body {
   width: 25rem;
 }
 
-.col-1-of-3 figcaption {
+.col-1-of-3 span {
   font-size: 1rem;
   color: slategray;
 }
@@ -378,7 +381,8 @@ body {
 }
 
 .more-articles-right {
-  width: 25%;
+  width: 20%;
+  float: right;
 }
 
 .more-articles-right-a {
@@ -390,31 +394,50 @@ body {
   color: slategray;
 }
 
+.more-articles-right-title {
+  text-align: start;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-left: -4rem;
+
+}
+
 .more-articles-right-list {
-  margin-left: 5rem;
+  margin-left: -18rem;
   font-size: 2rem;
   border-top: 0.1rem solid black;
   margin-top: 0.1rem;
+  margin-right: 20rem;;
 }
 
 .more-articles-right-items {
   right: 2rem;
   font-size: 1.7rem;
   margin-bottom: 1.7rem;
-  margin-right: -1.5rem;
+  margin-right: -2rem;
+  margin-left: -4rem;
   text-align: start;
   border-top: 0.1rem solid slategray;
   padding-top: 1rem;
   list-style: none;
 }
 
-.more-articles-right-title {
-  text-align: start;
-  font-size: 1.7rem;
-  font-weight: bolder;
+
+/* --------------------------FOOTER---------------------- */
+
+.footer-row {
+  border-top: 0.2rem solid slategray;
+  margin: 0 6rem;
+}
+
+.logo-footer{
+  float: left;
+  margin-top: 2rem;
+  margin-left: 10rem;
 }
 
 .footer-column {
+  margin-top: 3rem;
   float: left;
   width: 16%;
 }
