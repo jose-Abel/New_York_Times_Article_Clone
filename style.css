@@ -209,7 +209,6 @@ body {
 
 .editor__pick-article {
   width: 25%;
-  
 }
 
 .editor__pick-image {
@@ -248,14 +247,11 @@ body {
   text-align: justify;
 }
 
-
-
 .card-top {
   display: flex;
   float: left;
   padding-right: 4rem;
   margin: 0 10rem 0 15rem;
-
 }
 
 .card-bottom {
@@ -333,11 +329,9 @@ body {
 .more-articles-section {
   margin: 8rem -6rem 4rem 5rem;
   display: inline-block;
-
 }
 
 .more-articles-left {
-  /* display: inline-block; */
   border-top: 0.1rem solid black;
   float: left;
   padding-top: 5rem;
@@ -399,7 +393,7 @@ body {
   font-size: 1.7rem;
   font-weight: bolder;
   margin-left: -4rem;
-
+  display: block;
 }
 
 .more-articles-right-list {
@@ -422,7 +416,6 @@ body {
   list-style: none;
 }
 
-
 /* --------------------------FOOTER---------------------- */
 
 .footer-row {
@@ -430,7 +423,7 @@ body {
   margin: 0 6rem;
 }
 
-.logo-footer{
+.logo-footer {
   float: left;
   margin-top: 2rem;
   margin-left: 10rem;
@@ -463,6 +456,11 @@ body {
   color: black;
   font-size: 1.3em;
   text-decoration: none;
+}
+
+.footer-line {
+  border-top: 0.2px solid slategray;
+  margin-bottom: 1rem;
 }
 
 .footer-column .svg {
