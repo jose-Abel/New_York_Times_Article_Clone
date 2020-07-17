@@ -17,24 +17,26 @@ body {
   z-index: 20;
 }
 
-.nav-bar ul {
-  list-style-type: none;
+.nall {
   margin: 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
 }
 
-.nav-bar li {
+.nav-bar div {
   vertical-align: middle;
 }
 
-.nav-bar li a {
-  display: block;
+.nav-bar div a {
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.nav-bar div img {
+  display: inline;
 }
 
 .nytimes-logo {
