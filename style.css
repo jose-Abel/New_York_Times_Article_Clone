@@ -394,6 +394,7 @@ body {
   font-weight: bolder;
   margin-left: -4rem;
   display: block;
+  margin: 2rem;
 }
 
 .more-articles-right-list {
@@ -401,7 +402,8 @@ body {
   font-size: 2rem;
   border-top: 0.1rem solid black;
   margin-top: 0.1rem;
-  margin-right: 20rem;
+  margin-right: 15rem;
+
 }
 
 .more-articles-right-items {
@@ -409,7 +411,7 @@ body {
   font-size: 1.7rem;
   margin-bottom: 1.7rem;
   margin-right: -2rem;
-  margin-left: -4rem;
+  margin-left: 2rem;
   text-align: start;
   border-top: 0.1rem solid slategray;
   padding-top: 1rem;
@@ -459,6 +461,7 @@ body {
 }
 
 .footer-line {
+  display: block;
   border-top: 0.2px solid slategray;
   margin-bottom: 1rem;
 }
