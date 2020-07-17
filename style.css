@@ -392,9 +392,8 @@ body {
   text-align: start;
   font-size: 1.7rem;
   font-weight: bolder;
-  margin-left: -4rem;
+  margin: 2rem 0 2rem 2rem;
   display: block;
-  margin: 2rem;
 }
 
 .more-articles-right-list {
@@ -403,7 +402,6 @@ body {
   border-top: 0.1rem solid black;
   margin-top: 0.1rem;
   margin-right: 15rem;
-
 }
 
 .more-articles-right-items {
