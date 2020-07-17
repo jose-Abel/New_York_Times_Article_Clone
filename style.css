@@ -101,7 +101,7 @@ body {
   text-align: center;
 }
 
-.first-box img {
+.main-picture {
   width: 70%;
 }
 
@@ -285,7 +285,7 @@ body {
   border: none;
 }
 
-.inline-vid-img img {
+.inline-vid-img-img {
   width: 100%;
   margin-bottom: 1rem;
   display: inline-block;
@@ -345,7 +345,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.col-1-of-3 img {
+.col-1-of-3-img {
   width: 25rem;
 }
 
@@ -401,7 +401,7 @@ body {
   font-size: 2rem;
   border-top: 0.1rem solid black;
   margin-top: 0.1rem;
-  margin-right: 20rem;;
+  margin-right: 20rem;
 }
 
 .more-articles-right-items {
