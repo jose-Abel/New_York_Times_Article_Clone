@@ -14,6 +14,8 @@ body {
   font-weight: 400;
 }
 
+/* ---------------------NAVBAR----------------------- */
+
 .nav-bar {
   background-color: white;
   position: fixed;
@@ -91,11 +93,7 @@ body {
   background-color: rgba(86, 123, 149, 2);
 }
 
-.ad-space {
-  background-color: #f7f7f7;
-  width: 100%;
-  height: 15rem;
-}
+/* -------------------FIRST IMAGE------------------- */
 
 .main-content {
   width: 100%;
@@ -131,12 +129,20 @@ body {
 }
 
 .picture-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: 1rem;
   display: inline-block;
   text-align: start;
   width: 70%;
+  color: gray;
 }
+
+.picture-footer {
+  color: slategray;
+  font-size: 1.4rem;
+}
+
+/* ---------------BODY OF DOCUMENT---------------------- */ 
 
 .page-container {
   margin: 0 20rem 0 35rem;
@@ -146,7 +152,7 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .remove-underling-hovering {
@@ -163,7 +169,9 @@ body {
 }
 
 .article-date {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  margin: 2rem 0 2rem 0;
+  color: slategray;
 }
 
 .first-row i {
@@ -205,7 +213,7 @@ body {
 
 .editor__picks {
   float: right;
-  transform: translateY(-1050rem);
+  transform: translateY(-1060rem);
   width: 30rem;
   position: absolute;
   top: 180rem;
@@ -248,6 +256,7 @@ body {
   display: inline-block;
   letter-spacing: 0;
   line-height: 2rem;
+  margin-bottom: 3rem;
 }
 
 .theory-inflation-heading {
@@ -270,14 +279,14 @@ body {
   display: flex;
   float: left;
   padding-right: 4rem;
-  margin: 0 10rem 0 15rem;
+  margin: 0 10rem 4rem 15rem;
 }
 
 .card-bottom {
   display: flex;
   padding-right: 4rem;
   align-items: center;
-  margin: 2rem 10rem 0 15rem;
+  margin: 4rem 10rem 0 15rem;
 }
 
 .card-container-top,
@@ -295,11 +304,24 @@ body {
   font-size: 1.4rem;
 }
 
-/* -------------------MIDDLE IMAGE------------------ */
+.theory-inflation-footnote {
+  margin-left: 15rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: lighter;
+  position: relative;
+}
 
-.inline-vid-img {
-  width: 100%;
-  display: inline-block;
+.theory-inflation-footnote::before {
+  content : "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 5%;
+  border-top: 1px solid black;
 }
 
 /* -------------------VIDEO------------------ */
@@ -308,15 +330,42 @@ body {
   border: none;
 }
 
-.inline-vid-img-img {
+.video-footnote {
+  font-size: 1.7rem;
+  color: gray;
+  width: 80%;
+  line-height: .4cm;
+}
+
+.video-footnote span {
+  font-size: 1.4rem;
+  color: slategray;
+}
+
+/* -------------------MIDDLE IMAGE------------------ */
+
+.inline-vid-img {
   width: 100%;
-  margin-bottom: 1rem;
   display: inline-block;
 }
 
-.inline-vid-img span {
+.inline-vid-img-img {
+  width: 60rem;
+  display: inline-block;
+}
+
+.bicep2-footnote {
+  font-size: 1.7rem;
+  color: gray;
+  line-height: 0.5cm;
+  vertical-align: baseline;
+  margin-right: 6rem;
+}
+
+.steffen {
+  display: inline-block;
   font-size: 1.4rem;
-  line-height: 2rem;
+  color: slategray;
 }
 
 /* ----------------PAGE CONTAINER FOOTER---------- */
@@ -355,18 +404,42 @@ body {
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.more-articles-section-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.7rem;
+  margin-top: 7rem;
+  margin-left: 9rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.more-articles-section-title:hover {
+  text-decoration: underline;
 }
 
 .more-articles-left {
   display: flex;
   flex-wrap: wrap;
-  border-top: .2rem solid black;
-  margin: 6rem 32rem 0 5rem;
+  margin: 4rem 32rem 0 5rem;
+}
+
+.more-articles-left::before {
+  content: "";
+  border-top: .2rem solid slategray;
+  width: 90%;
+  top: 0;
+  left: 0;
 }
 
 .more-articles-1 {
   flex-basis: 33.333333%;
-  margin: 5rem -7rem 3rem 4rem;
+  margin: 7rem -7rem 3rem 4rem;
 }
 
 .more-articles-1 a,
@@ -459,11 +532,8 @@ body {
   display: inline-block;
   flex-basis: 100%;
   margin-left: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
-
-
-/* right articles */
 
 .more-articles-right {
   display: inline-block;
@@ -489,11 +559,21 @@ body {
 }
 
 .more-articles-right-list {
-  border-top: .2rem solid black;
   padding-top: 4rem;
   margin-right: 2rem;
-  margin-left: -10rem;
+  margin-left: -17rem;
 }
+
+.more-articles-right-list::before {
+  content: "";
+  top: 0;
+  right: 0;
+  border-top: .2rem solid slategray;
+  position: absolute;
+  width: 25%;
+  margin-top: 4rem;
+}
+
 
 .more-articles-right-items {
   margin-top: 3rem;
