@@ -517,20 +517,26 @@ body {
 .date-bottom {
   font-size: 0.5rem;
   margin-top: 1.2rem;
+  margin-bottom: 4rem;
 }
 
-.editor-pick-bottom-hr {
-  display: inline-block;
-  flex-basis: 70%;
-  margin-left: 3rem;
-  margin-bottom: 2rem;
-}
-
-.editors-pick-bottom {
+.editors-pick-bottom-title {
   display: inline-block;
   flex-basis: 100%;
   margin-left: 4rem;
   font-size: 1.7rem;
+  margin-top: 1.5rem;
+}
+
+.editors-pick-bottom-title::before {
+  content: "";
+  position: absolute;
+  width: 64%;
+  top: 0;
+  left: 0;
+  border-top: 0.2rem solid slategray;
+  margin-top: 79rem;
+  margin-left: 9rem;
 }
 
 .more-articles-right {
