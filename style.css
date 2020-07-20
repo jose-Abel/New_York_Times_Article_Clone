@@ -116,6 +116,7 @@ body {
 
 .main-title {
   display: inline-block;
+  margin: 4rem;
 }
 
 .main-title h1 {
@@ -181,6 +182,10 @@ body {
   line-height: 2.9rem;
 }
 
+.article p {
+  margin: 2rem 0;
+}
+
 .blue-text:link,
 .blue-text:visited {
   color: #3268ad;
@@ -200,7 +205,7 @@ body {
 
 .editor__picks {
   float: right;
-  transform: translateY(-800rem);
+  transform: translateY(-1050rem);
   width: 30rem;
   position: absolute;
   top: 180rem;
@@ -250,11 +255,12 @@ body {
 }
 
 .theory-inflation-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .theory-inflation-txt {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: -1.5rem;
   color: gray;
   text-align: justify;
@@ -355,8 +361,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   border-top: .2rem solid black;
-  margin-right: 20rem;
-  margin-top: 7rem;
+  margin: 6rem 32rem 0 5rem;
 }
 
 .more-articles-1 {
@@ -383,7 +388,7 @@ body {
 
 .more-articles-2 {
   flex-basis: 33.333333%;
-  margin: 4rem -7rem 3rem 4rem;
+  margin: 1rem -7rem 3rem 4rem;
 }
 
 .more-articles-2 a,
@@ -425,20 +430,22 @@ body {
 }
 
 .picture-footnote {
+  width: 70%;
   display: block;
   font-size: 1.1rem;
   text-decoration: none;
   color: slategray;
+  margin-bottom: 1.2rem;
 }
 
 .more-articles-3 p {
-  display: block;
-  font-size: 1.5rem;
-  word-break: break-all;
+  width: 70%;
+  font-size: 1.7rem;
 }
 
 .date-bottom {
   font-size: 0.5rem;
+  margin-top: 1.2rem;
 }
 
 .editor-pick-bottom-hr {
@@ -461,8 +468,8 @@ body {
 .more-articles-right {
   display: inline-block;
   float: right;
-  margin-top: 7rem;
-  margin-left: -18rem;
+  margin-top: 6rem;
+  margin-left: -20rem;
 }
 
 .more-articles-right-a {
@@ -484,13 +491,15 @@ body {
 .more-articles-right-list {
   border-top: .2rem solid black;
   padding-top: 4rem;
+  margin-right: 2rem;
+  margin-left: -10rem;
 }
 
 .more-articles-right-items {
   margin-top: 3rem;
   border-top: .1rem solid slategray;
   padding-top: 1.7rem;
-  margin-right: 5rem;
+  margin-right: 1rem;
 }
 
 /* --------------------------FOOTER---------------------- */
