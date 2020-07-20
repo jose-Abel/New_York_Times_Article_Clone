@@ -376,6 +376,11 @@ body {
   color: slategray;
 }
 
+.more-articles-1 p {
+  width: 70%;
+  font-size: 1.7rem;
+}
+
 .more-articles-2 {
   flex-basis: 33.333333%;
   margin: 4rem -7rem 3rem 4rem;
@@ -391,6 +396,11 @@ body {
 
 .more-articles-2 a:hover {
   color: slategray;
+}
+
+.more-articles-2 p {
+  width: 70%;
+  font-size: 1.7rem;
 }
 
 .more-articles-3 {
@@ -427,8 +437,8 @@ body {
   word-break: break-all;
 }
 
-.col-1-of-3 .date-bottom {
-
+.date-bottom {
+  font-size: 0.5rem;
 }
 
 .editor-pick-bottom-hr {
@@ -486,7 +496,7 @@ body {
 /* --------------------------FOOTER---------------------- */
 
 .footer-row {
-  display: inline-block;
+  display: block;
   border-top: 0.2rem solid slategray;
   margin: 0 6rem;
 }
