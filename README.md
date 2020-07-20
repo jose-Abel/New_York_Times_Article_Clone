@@ -10,15 +10,19 @@ The Microverse "Positioning and Floating Elements" practice that consist of crea
 
 ## Authors
 ### Author1
-- 👤GitHub: https://github.com/danielufeli
+- 👤GitHub: [Daniel Ufeli](https://github.com/danielufeli)
+
 
 ## Author2
-- 👤GitHub: https://github.com/jose-Abel
+- 👤GitHub: [Jose Abel Ramirez](https://github.com/jose-Abel)
 
 ## Getting Started
 You can clone this code anytime and ust load the HTML on your browser since is a simple page build with HTML and CSS.
 
 To get a local copy up and running follow these simple example steps.
+
+## Live version
+https://goofy-mcclintock-3497d8.netlify.app/
 
 ### Setup
 You can either copy the code or just do a git pull on your computer.
