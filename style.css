@@ -142,8 +142,7 @@ body {
   font-size: 1.4rem;
 }
 
-/* ---------------BODY OF DOCUMENT---------------------- */ 
-
+/* ---------------BODY OF DOCUMENT---------------------- */
 .page-container {
   margin: 0 20rem 0 35rem;
 }
@@ -250,8 +249,7 @@ body {
   margin-right: 3rem;
 }
 
-/* -------THEORY OF INFLATION---------------------- s*/
-
+/* -------THEORY OF INFLATION---------------------- */
 .theory-inflation {
   display: inline-block;
   letter-spacing: 0;
@@ -315,7 +313,7 @@ body {
 }
 
 .theory-inflation-footnote::before {
-  content : "";
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -334,7 +332,7 @@ body {
   font-size: 1.7rem;
   color: gray;
   width: 80%;
-  line-height: .4cm;
+  line-height: 0.4cm;
 }
 
 .video-footnote span {
@@ -431,7 +429,7 @@ body {
 
 .more-articles-left::before {
   content: "";
-  border-top: .2rem solid slategray;
+  border-top: 0.2rem solid slategray;
   width: 90%;
   top: 0;
   left: 0;
@@ -442,15 +440,15 @@ body {
   margin: 7rem -7rem 3rem 4rem;
 }
 
-.more-articles-1 a,
-.more-articles-3 a:active,
-.more-articles-3 a:visited {
+.more-articles-1-a,
+.more-articles-1-a:active,
+.more-articles-1-a:visited {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
 }
 
-.more-articles-1 a:hover {
+.more-articles-1-a:hover {
   color: slategray;
 }
 
@@ -464,15 +462,15 @@ body {
   margin: 1rem -7rem 3rem 4rem;
 }
 
-.more-articles-2 a,
-.more-articles-3 a:active,
-.more-articles-3 a:visited {
+.more-articles-2-a,
+.more-articles-2-a:active,
+.more-articles-2-a:visited {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
 }
 
-.more-articles-2 a:hover {
+.more-articles-2-a:hover {
   color: slategray;
 }
 
@@ -486,15 +484,15 @@ body {
   margin: 4rem -7rem 3rem 4rem;
 }
 
-.more-articles-3 a,
-.more-articles-3 a:active,
-.more-articles-3 a:visited {
+.more-articles-3-a,
+.more-articles-3-a:active,
+.more-articles-3-a:visited {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
 }
 
-.more-articles-3 a:hover {
+.more-articles-3-a:hover {
   color: slategray;
 }
 
@@ -568,16 +566,15 @@ body {
   content: "";
   top: 0;
   right: 0;
-  border-top: .2rem solid slategray;
+  border-top: 0.2rem solid slategray;
   position: absolute;
   width: 25%;
   margin-top: 4rem;
 }
 
-
 .more-articles-right-items {
   margin-top: 3rem;
-  border-top: .1rem solid slategray;
+  border-top: 0.1rem solid slategray;
   padding-top: 1.7rem;
   margin-right: 1rem;
 }
