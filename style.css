@@ -592,7 +592,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   color: black;
   text-align: center;
   padding-top: 2rem;
@@ -600,7 +600,7 @@ body {
   vertical-align: middle;
 }
 
-.footer-fixed p{
+.footer-fixed p {
   font-size: 1.5rem;
 }
 
@@ -673,7 +673,7 @@ body {
   width: 80%;
   border-top: 1px solid #e2e2e2;
   padding: 10px;
- text-align: center; 
+  text-align: center;
 }
 
 .copyright ul {
