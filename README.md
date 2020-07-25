@@ -2,6 +2,8 @@
 
 The Microverse "Positioning and Floating Elements" practice that consist of creating a clone for the New York Times article https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0. 
 
+![screenshot](./app_screenshot.png)
+
 ## Built With
 - HTML
 - CSS
